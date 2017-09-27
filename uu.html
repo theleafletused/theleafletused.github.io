@@ -298,10 +298,19 @@ document . getElementById ("uu") .setAttribute ( 'href' ,
 
 
 
+   Markers1 . length  
  
- for (;L.Popup ()  .isOpen (o) == true ;){ 
-L.    Popup()   .popupClose(o); 
-}; 
+ = - (-1 );
+    
+ 
+
+ Marker1.setLatLng(e.latlng);
+Objects ; o.addLayer( Marker1     );
+
+ for (;L. popup() .isOpen (o) == true ;){ 
+ o.closePopup ( L . popup () ); 
+};   Marker1.bindPopup( content1 ).openPopup();
+
 for ( var lengthv = 0; lengthv = 0;) 
  { for (; Markers1 . length != Infowindow1 ;) 
  { for ( ee = 0 ; ee < Markers1.length 
@@ -312,30 +321,18 @@ for ( ; o .hasLayer ( m1. m ) == false ;
 } 
 
  
-} ; Markers1 . length  
- 
- = - (-1 );
- Objects ;lengthv ++ ;
- 
- 
-
-/* m; hidden  popup popupPane
+};  lengthv ++ ;
+} };
+/* m; hidden m1 . popupPane  
  window . onunload = function(
- Markers1  Markers1{"
-o addLayer m2 .hasLayer
-[]hasPopup for 
-m1 
+ Markers1  Markers1{"Popup
+o addLayer m2 .hasLayer  
+[]hasPopup for    .on("popupclose" , eval(Objects)); 
+  
+m1 popupClose 
 false 
  var m2 = Markers2
- */  
-
-  
-}
-};
- o.addLayer( m1.m );
- Marker1.setLatLng(e.latlng);
- Marker1.bindPopup( content1 ).openPopup();
-
+ */ 
 
 
 
@@ -347,7 +344,6 @@ false
 
  });
 
- Marker1.on("popupclose",  eval(Objects) );
 Marker2 = 
  Marker1 ;
   Marker1.on('click', function(e) {
