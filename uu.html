@@ -253,9 +253,9 @@ document . getElementById ("uu") .setAttribute ( 'href' ,
  
 
   
- input . parentElement . attributes , 
-  //*    target ,'/'    
- 
+  target . parentElement . attributes , 
+           
+ //*input,'/'
      
 
  
@@ -301,10 +301,10 @@ document . getElementById ("uu") .setAttribute ( 'href' ,
 
  Markers1 . length  
    
- = Markers1 . length - (-1 );
+ = Markers1 . length - (-1 ) ;
  
  
- Marker1. setLatLng(e.latlng); 
+ Marker1 . setLatLng(e.latlng); 
 Objects ; o.addLayer( Marker1 ); 
 
  for (; L. popup() .isOpen (o) == true ;){ 
@@ -312,7 +312,7 @@ Objects ; o.addLayer( Marker1 );
 }; Marker1.bindPopup( content1 ).openPopup(); 
 
  for ( ee = 0 ; ee < Markers1.length 
- ; ee ++){ 
+       ; ee ++){ 
 for ( ; o . hasLayer ( m1. m ) == false ; 
 ) 
 { o . addLayer( m1.m ); 
