@@ -166,11 +166,11 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
  
  markers = { 
- m:    L .marker(
+ m: L .marker(
  o.getCenter ( ) , {
  draggable: true,
  clickable: true
- })   ,
+ }) ,
  embed1: document.getElementById('embed1'),
  embed2: document.getElementById('embed2'),
  tre: Date.now(),
@@ -235,7 +235,7 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 
                        
- function( ) {
+ function( e  ) {
 
 
 
@@ -243,7 +243,7 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 
          
-input      =      [ '.' ,markers . tre 
+var      q = [ '.' ,markers . tre 
 , markers.m.getLatLng . toString () ,
 
 
@@ -252,9 +252,9 @@ input      =      [ '.' ,markers . tre
  
 
   
-  target . parentElement . attributes , 
+input . target . parentElement . attributes , 
            
- //*/ super null"
+ //*/ e super , null"'input target
      
 
  
@@ -262,7 +262,7 @@ input      =      [ '.' ,markers . tre
      
 
  '' ] .join( '/' ) , document . getElementById ("uu") .setAttribute ( 'href' ,
- 'input'  
+ 'q'    
 
  
         
@@ -301,7 +301,7 @@ input      =      [ '.' ,markers . tre
 
  
  
- Marker1 . setLatLng(e.latlng); 
+ Marker1 . setLatLng( e. getLatLng ); 
 Objects ; o.addLayer( Marker1 ); 
 
  for (; L. popup() .isOpen (o) == true ;){ 
@@ -328,7 +328,7 @@ for ( ; o . hasLayer ( m1. m ) == false ;
  window . onunload function(
   {" Popup 
 o addLayer m2 hasLayer 
-hasPopup for .on popupclose"  eval(Objects)); 
+hasPopup for .on popupclose" eval(Objects)); 
   
 m1 popupClose 
 false 
@@ -352,9 +352,9 @@ Marker1=
   
  Marker2.bindPopup (  content1 ). openPopup(); 
 for (ee = 0; ee < Markers2.length; ee++) {
- for (; Markers2[ee].m.latlng == e.latlng;) { 
+ for (; Markers2[ee].m.latlng == e.   latlng;) { 
 
-  for ( embed = Markers2[ee] .length -( 8 - 2 
+  for ( embed = Markers2[ee] .length - ( 8 - 2 
   ) ; embed > 2 ; embed = - 1 ) { 
   eval ([ "document.getElementById ('content'). appendChild( document.createElement( 'div' ) . setAttributeNS( 'id' , 'u" , embed , "')); ", 
    " document . getElementById ('content') . lastElementChild" ,                      
