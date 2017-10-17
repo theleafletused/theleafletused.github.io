@@ -235,11 +235,11 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 
                        
- function( e  ) {
+ function(  ev ) {
 
 
 
-  //*/ e super , null "' input target , = "
+  //*/getLatLng e super e , null "' input target , = "
  
  var q = [ '.' ,markers . tre 
 , markers.m.getLatLng . toString () , 
@@ -250,14 +250,14 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
  Markers2[ee].m. getLatLng , {
  draggable: false 
  }); 
- o.on('click', function(e ) {
+ o.on('click', function( ev ) {
 
 Objects;
 Marker1 = Markers1[Markers1.length-1].  m;  
 
 
  var m1 = Markers1 [ ee ] ;
- Marker1 . setLatLng( e. getLatLng ); 
+ Marker1 . setLatLng( ev.  latlng   ); 
   o.addLayer( Marker1 ); 
 
  for (; L. popup() .isOpen (o) == true ;){ 
