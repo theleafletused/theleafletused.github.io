@@ -166,15 +166,15 @@ Marker1
 
  
     
- new   L .marker(
+    L .marker(
  o.getCenter ( ) , {
  draggable: true,
  clickable: true
  }) ; 
-markers={ m:Marker1      , embed1: document.getElementById('embed1'),
+markers = { m:new Marker1 , embed1: document.getElementById('embed1'),
  embed2: document.getElementById('embed2'),
- tre: Date.now(),
- marker1to2: 1
+ tre: Date.now(), 
+ marker1to2: 1 
 
  }; 
 
