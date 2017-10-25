@@ -148,51 +148,34 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
  content1 = content2 ;
   
- 
-
-        
-
+  
 
                  
 Marker1
 =
-
-
-    
-
-                
-
-
-
- 
-    
+   
  L .marker( 
- o.getCenter ( ) , {
+  latlng , {
  draggable: true,
  clickable: true
  }) ; 
 markers = { embed1: document.getElementById('embed1'), 
  embed2: document.getElementById('embed2'), 
  tre: Date.now(), 
- marker1to2: 1 
-
+ marker1to2: 1
  }; 
 
 
- 
+    
 
 
 
- Markers1 = [ ];
- Markers1
-       [0] = markers;
+ Markers1 = [ ]; 
+ o.getCenter ( ) ;
+ Markers1  
+       [0] = markers  , 
  Markers2[0] = markers;
- 
-
- 
-
-
-
+  
 
 
  var embed1 = document  
@@ -202,18 +185,7 @@ markers = { embed1: document.getElementById('embed1'),
  
  ' <div id="content"> the embed of either tmblr instagram twitter <div id="package"> <input width ="24" height= "100" id ="embed1" tre  =" value" > </div> <div id="u"> <div id="embed2" innerHTML ="escape(embed1.value)">    </div> </div> ';
  
-
  
- 
- 
-
- 
- 
- 
-
-
-
-
 
  
  
@@ -240,12 +212,12 @@ markers = { embed1: document.getElementById('embed1'),
 
 
    /*   Objects; 
- o addLayer Marker1 = Markers1[Markers1.length-1].  m;  =,Marker1  
+ o addLayer Marker1 = Markers1[Markers1.length-1].  m;  Marker1  
 attributes 
- ; . 
-markers 
-input/getLatLng super e , null "' input target " 
- / */ 
+  . 
+markers    
+input/getLatLng ,super e null"' input target " 
+ / */ t = null   ;
  var q = [ '.' , markers . tre 
 , L .popup ().getLatLng () . toString () , 
  e. target . parentElement . innerHTML , 
