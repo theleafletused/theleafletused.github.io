@@ -212,27 +212,27 @@ markers = { embed1: document.getElementById('embed1'),
    /* Objects;  
  o addLayer Marker1 = Markers1[Markers1.length-1]. m; Marker1  
 attributes 
-  . 
-markers    
-input/getLatLng ""super e null input target  
+   
+markers 
+input/getLatLng ""super e null input 
  / */ t = null ;  
- var q = [    "."  , markers . tre 
-, L .popup ().getLatLng () . toString () , 
+ var q = [    "." , markers . tre 
+, L .popup () .getLatLng () . toString () , 
  e. target . parentElement . innerHTML , 
  '' ] .join( '/' ) ; document . getElementById ("uu") .setAttribute ( 'href' ,
  'q' ) ; console.log( "package" ) ; 
- } ); /* ) Marker2 = L.marker( 
- Markers2[ee] m getLatLng , {  
+ } ); /* ) Marker2 = L marker( 
+ Markers2[ee] m getLatLng  {  
  draggable: false 
  }); ) */ var m1 = Markers1 [ ee ] ;
-
+,
  o.on('click', function( e ) { 
 
    Marker1 . setLatLng( e . latlng ) . addTo(o); 
     
  for (; L. popup() .isOpen (o) == true ;){ 
- o.closePopup ( L . popup() ); 
-}; Marker1.bindPopup( content1 ).openPopup(); 
+ o.closePopup ( L . popup() );      
+}; Marker1.bindPopup( content1 ).openPopup( e . target .latlng  ); 
 });/*
  for ( ee = 0 ; ee < Markers1.length 
        ; ee ++){      
