@@ -34,7 +34,7 @@
 
 <body> 
          
-  <!--js-.// .leaflet/dist/script>=src<"src"</>  .=""dist leaflet.css" ="href-->    
+  <!--js-.// .leaflet/dist/script>=src<"src"</> .=""dist leaflet.css" ="href-->    
                   
   
    
@@ -211,8 +211,8 @@ markers = { embed1: document.getElementById('embed1'),
  o addLayer Marker1 = Markers1[Markers1.length-1]. m; Marker1  
 attributes 
    
-markers 
-input/getLatLng ""super e null input 
+markers ""
+input/getLatLng super e null input 
  / */ t = null ;  
  var q = [    "." , markers . tre 
 , L .popup () .getLatLng () . toString () , 
@@ -222,8 +222,8 @@ input/getLatLng ""super e null input
  } ); /* ) Marker2 = L marker( 
  Markers2[ee] m getLatLng  {  
  draggable: false 
- }); ) */ var m1 = Markers1 [ ee ] ;
-,
+, }); ) */ var m1 = Markers1 [ ee ] ;
+
  o.on('click', function( e ) { 
 
    Marker1 . setLatLng( e . latlng ) . addTo(o); 
@@ -268,11 +268,11 @@ L .
      .on('click', function(e) {
 e
    .
-     target  .bindPopup ( content1 ). openPopup(); 
+     target .bindPopup ( content1 ). openPopup(e.   . latlng         ); 
 }) ; /* e  Marker1 Marker2 for (ee = 0; ee < Markers2.length; ee++) {
- for (; Markers2;[ee]. m   latlng == e. latlng;) { 
+ for (; Markers2;[ee] m latlng == ;) { 
 
-  for (   embed = Markers2[ee] .length
+ for ( embed = Markers2[ee] .length
    ;   embed > 2 ; embed = - 1 ) { 
   eval ([ "document.getElementById ('content'). appendChild( document.createElement( 'div' ) . setAttributeNS( 'id' , 'u" , embed , "')); ", 
    " document . getElementById ('content') . lastElementChild" ,                      
