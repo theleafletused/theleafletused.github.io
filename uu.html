@@ -27,7 +27,7 @@
    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
    crossorigin=""/>
-   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" 
    integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
    crossorigin=""> </script> 
   </head>
@@ -92,7 +92,7 @@ var n
 
 
 var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
- attribution: '&copy; &lt;a href="http://osm.org/copyright"&gt;OpenStreetMap&lt;/a&gt; contributors'
+ attribution: '&copy;  &lt;a href="http://osm.org/copyright" &gt; OpenStreetMap &lt;/a &gt; contributors'
 })  
 
 
@@ -117,11 +117,11 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 
         ee1 = 0;
-        ee2 = 0;
+          embed2= 0;
             
-        e2 = 0;
+                 embed1    = 0;
         db1 = 0;
-        ee = 0;
+        ee   = 0;
         db2 = 0;
         Markers2 = [];
     n =   4 ;
@@ -144,149 +144,143 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
  Infowindow1 = 0;
  content2 = ' ';  
  Infowindow2 
- = 2;
+ = 2; 
 
  content1 = content2 ;
  
+      
  
  
-                 
 Marker1
 = 
  
- L .marker( 
-  latlng , {
- draggable: true,
- clickable: true
+ L .marker( }
+  latlng ,  {    
+ draggable: true,  
+ clickable: true      
  }) .bindPopup( 
 
 
      
  
- ' <div id="content"> the embed of either tmblr instagram twitter <div id="package"> <input width ="24" height= "100" id ="embed1" tre ="value"> </div> <div id="u"> <div id="embed2" innerHTML ="embed1" width="100" height= "100" > </div> </div> '     
- );
- 
- 
- Objects = 
-   Markers1[Markers1.length - 1] = markers; 
+ ' <div id="content"> the embed of either tmblr instagram twitter <div id="package"> <input width ="24" height= "100" id ="embed1" > </div> <div id="u"> <div tre="value" id="embed2" innerHTML ="embed1" width="100" height= "100" > </div> </div> '     
+ ); 
+ Markers1 = [ ]; 
      
-markers = { embed1: document.getElementById('embed1'), 
- embed2: document.getElementById('embed2'), 
- tre: Date.now(), 
- marker1to2: 1
- };       
-  
+   
+   
 
-
- Markers1 = [ ];  
-     
- Markers1  
-       [0] = markers , 
- Markers2[0] = markers;
  
  
+  var tre =
+  Date.now(),  
+   
+ Markers1 [0] =   
+ Markers2 [0] ;  
+  var     embed2  = document. getElementById ('embed2')   ; 
  var embed1 = escape( document  
 .getElementById("embed1") .value) ; 
+       
  
+ document.body. addEventListener (         
+   
+'input' ,      
     
- document.body. addEventListener ( 
-   
-'input'
-,
-                        
- function( e ) {     
+                       
+ function( e ) {     /* {1 Markers1[Markers1 length - 1] markers marker1to2 :} 
+                
+               
 
-
-
-   /* Objects;  
- o addLayer Marker1 = Markers1[Markers1.length-1]. m; Marker1  
-attributes 
-   
-markers ""
-input/getLatLng super e null input 
- / */ t = null ;  
- var q = [    "." , markers . tre 
-, L .popup () .getLatLng () . toString () , 
- e. target . parentElement . innerHTML , 
- '' ] .join( '/' ) ; document . getElementById ("uu") .setAttribute ( 'href' ,
- 'q' ) ; console.log( "package" ) ; 
- } ); /* ) Marker2 = L marker( 
- Markers2[ee] m getLatLng  {  
- draggable: false 
-, }); ) */ var m1 = Markers1 [ ee ] ;
-
+ 
+ 
+,embed1 attributes ('') . Marker1 tre Objects: createElement: ;
+' :input' markers super input L null target target [- 1] 
+/*marker * /L tre*/ 
+ 
+ 
+ embed1. tre  = tre , embed2 . tre = tre; q ; }); 
+ t = null ; 
+ q = document.getElementById ("uu") .setAttribute ('href', 
+   [ '.' , e . target . parentElement . innerHTML , 
+ '' ] .join( "/" ) ) ; 
+ console.log( ee ) ; 
+ 
+ 
+ 
+  var m1 = Markers1 [ ee ] ; 
+ 
  o.on('click', function( e ) { 
-
-   Marker1 . setLatLng( e . latlng ) . addTo(o); 
-    
- for (; L. popup() .isOpen (o) == true ;){ 
- o.closePopup ( L . popup() );      
-}; Marker1.bindPopup( content1 ).openPopup( e . target .latlng  ); 
-});/* target
- for ( ee = 0 ; ee < Markers1.length 
-       ; ee ++){      
-for ( ; o . hasLayer ( m1 . ) == false ; 
-) 
-{ o . addLayer( m1 . ); 
-} 
-};  target
- 
-     
- 
-   }++; ;} hidden m1    Markers1 . length  
-   
- = Markers1 . length - (-1 ) ;
- for ( var lengthv = 0; lengthv = 0;) 
- { for (; lengthv != Infowindow1 ;)  
- { popupPane 
- window . onunload function(
-  {" Popup 
-o addLayer m2 hasLayer 
-hasPopup for  popupclose" eval  Objects)  ; 
-  on  
+   embed2 . lng = e.latlng .lng , embed2 . lat = e .latlng .lat ; 
+   Marker1 . setLatLng( e . latlng ) . addTo(o) ; 
+   embed1 .    lat  = embed2 . lat     , embed1. lng =   embed2 . lng 
+ for (; L. popup() . isOpen (o) == true ;){    
+ o.closePopup ( L . popup() ); 
+}; Marker1 . openPopup( e  .latlng ); 
+});   /*   lat . ee  = lat  ; ee = Markers1 (),   ()  . () (  lat    )  ee
+ for ( que     ee ){ 0 
+  m1 
+  var m1 = L . marker () . bindPopup ( Marker1 . getPopup ( ) ) ; m1 . setLatLng ( L . latLng ( ee .  que . lat , ee   que  . lng )); m1 . setDraggable ('false'); for ( ; o . hasLayer ( m1 ) == false ; ) { Markers2 . appendChild ( m1 ) 
+ ;m1      =     
+ o . addLayer( m1 );  <++;       
+Markers1 getElementsByAttribute childNodes  childNodes 
+Markers1 getElementsByAttribute  o  getCenter ( popup
+ {}() target/target childNodes  Markers1
+ {}childElementCount childNodes
+  [] Marker2
+ que++;} ;};   {
+  length  length ee {   
+ !=  1  que lng : getLatLng
+ for length - document  addLayer lengthv target} length appendChild lengthv package getElementById draggable 0 hasLayer     lengthv 0 setAttribute getLatLng
+  for Infowindow1   popupPane
+ eval onunload hidden  Objects 
+    function(){ 
+  window    
+ addLayer m2 hasLayer 
+hasPopup for 
+  on { Marker1 
 m1 popupClose 
-false 
- var m2 = Markers2 
- Marker1 
-= */ 
-            
-  
+'false  click  ee  
+  m2 =  
+=    round   getCenter ()
+ ( Markers1 . getElementsByAttribute("lat ee"    round o getCenter  lat     ) 
+; = getElementsByAttribute( lng ee      o getCenter lng / o getZoom   )  
+= ( ; = getElementsByAttribute  ; { ;      
+ee; = */ var latlng ;
  
-L .
-  marker(
-  
-  )
-     .on('click', function(e) {
-e
-   .
-     target .        openPopup(e. target  . latlng         ); 
-}) ; /* e  Marker1 Marker2 for (ee = 0; ee < Markers2.length; ee++) {
- for (; Markers2;[ee] m latlng == ;) { 
-
- for ( embed = Markers2[ee] .length
-   ;   embed > 2 ; embed = - 1 ) { 
-  eval ([ "document.getElementById ('content'). appendChild( document.createElement( 'div' ) . setAttributeNS( 'id' , 'u" , embed , "')); ", 
-   " document . getElementById ('content') . lastElementChild" ,                      
- ".appendChild ( document . createElement ('div') . setAttribute ( 'id' , 'embed" 
  
- , embed ,"')) ; " . ]. join ('') ) ;  
-// innerHTML ; ,Markers2[] .1 .on('click .{( {/( 8 - 2 -  
- );  ='( ( )Marker2
- .bindPopup( ).previousElementSibling openPopup 
  
-ee ee1 ee input  
- eval ([(   , "document.getElementById('embed", embed , "').innerHTML = Markers2[ee] .embed" 
-, embed , ";" ]. join ('')  )
- ;};}; 
- }; */
-    
-
-
+ 
+   L .Popup    . on('popupOpen',   function(e) {  
+ 
+ 
+  e . target .        openPopup( e. target . latlng );   getElementsByAttribute  
+        }); /* for ( que     ee ){    0  < Markers2  length; ee++{  
+ for  ; L  latLng { ee  que []  lat 
   
- /*      
-{ /
+, ee [] que Markers2 lng  == e   target  getLatLng            ;
+; for      Markers2 ; = > 2 ;Marker1 Marker2 Markers2 embed - 1 { 
+ eval ([ "document . getElementById ('content') . appendChild( document.createElement( 'div' ) . setAttributeNS( 'height   ' , 'u" , e .  . getPopup()   lastElementChild  . childElementCount ,"')); ", 
+  target  " document . getElementById ('content') . lastElementChild" , 
+ " lastElementChild .appendChild ( document . createElement ('div') . setAttribute ( 'id' , 'embed" 
+.  . getPopup ().   .    que()
+ ,      ,"')) ; " ]. join ('') ) ; 
+// Marker2 innerHTML Markers2[] 1 on('click 8 - 2 -  
+  length .
+ bindPopup() previousElementSibling openPopup 
+ 
+ ee1  ,(  
+ eval ([ "document.getElementById('embed",  cchildElementCount   , "').innerHTML = []   
+,       , ";" ]. join ('') )  ee . 
+ ;};}; ee  que 
+ }; */  
+    "
+/*
+Markers2
+  
+       
+{ /input
  (''[
- 
+ ee
  / ] 
  for
 markers
