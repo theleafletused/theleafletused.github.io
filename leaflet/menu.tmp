@@ -1,9 +1,9 @@
-  " - " "-" / / / -   
+  " - " "-" / /   -   
 <!DOCTYPE html> 
 <html>
 <head> 
 < var theheight = 100 ; var thewidth = 240 ; var ee ; for ( ee = 0  ; ee < theheight ; ee++){ 
-   for ( var que = 0 ; que < thewidth ; que = +1){ 
+ Arangodb var db require db create arangodb  arangojs for ( var que = 0 ; que < thewidth ; que = +1){ 
  document. getElementById ("thethe") . innerHTML =+[ '<iframe style="width: 2% ; height:2%;  overflow:hidden;" border="0" id="embed',
   que,'ee',ee,'" padding="0" width="1%" height="1%" scrolling="no">Iframes not supported</iframe> ' ]. 
  join('');}; document .getElementById ("thethe")  .innerHTML =+' </br > ' ;}; document.body. addEventListener ( 'input' ,
@@ -11,7 +11,7 @@
    var centimeter = Number ( 100 ) ; var lifting ; var thelifting = [ ' <div > it is using your arm for' , lifting ," </div > " ].join ('') ; 
 
  var tall = Number ( (document.getElementById('tall'). value ) / 100 ) , 
- m = Number ( ( ( document.getElementById('m') . value ) / 100 ) - tall ) , 
+  q = Number ( (    db.collection ('q ') . value ) / 100 ) - tall ) , 
  v = Math . round ( Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ) , 
 distance = Number ( document . getElementById ("distance") . value ) , 
  weightround = Number ( document . getElementById ('weight') . value ) , w = Number ( tall * 6 / ( ( 2 - - 2 )*2) ) , 
