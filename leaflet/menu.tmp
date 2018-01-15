@@ -1,20 +1,20 @@
 /  " - " "-"     -   
 <!DOCTYPE html> 
 <html>
-<head>  / arangodb  thewidth
- < var theheight  240 ;         var ee  for  ee  0 arangojs ; ee < theheight ; ee++){ que   thewidth
-     var Database = require("arangojs"). Database ; var db = require("arangojs")() ; for ( var  = 0 ; que <  ; que = +1){ 
- document getElementById thethe innerHTML =+['<iframe style="width:        db . createDatabase ('');    :2%   ;  overflow:hidden border="0" id="embed" 
-  que,'ee',ee padding 0 width="1%" height="1%" scrolling= "no " > </iframe> ]   2% height
- join document getElementById embed Number ) )thethe " innerHTML =+'<br/>           
-  function(ee=',= ,for ('') ,value ))  =value 'theheight thewidth value'distance , <div></>div,"',Number', 
-=   var centimeter = [     .   . parentElement ] ; ),
- db . useDatabase("   "); 
- var  g = db.collection ('g') ; 
-  var     q =       db.collection ('q') ;   - tall 
-      q.create() , g . create () ; // () stdout           .document. body      .(addEventListener( ('input' ,   ()      {  * .  .  * 2 . ^ ( 1 / 2 }; 
-distance =  (  '  . import ("");               };  ()
- weightround = Number ( document . getElementById ('weight') Number. value ) , w = Number ( tall * 6 / ( ( 2 - - 2 )*2) ) , 
+<head>   arangodb  thewidth
+ < var theheight 240 ; var ee  for  ee  0 arangojs ; ee < theheight ; ee++){ que   thewidth
+  /   var Database = require("arangojs"). Database ; var db = require("arangojs")() ; db .createDatabase   (''); for ( var  = 0 ; que <  ee; que = +1){ Number   embed thewidth Number thethe div div innerHTML  
+height document getElementById thethe innerHTML =+['<iframe ',style="width: :2% ; overflow:hidden border="0" id="embed" 
+ join que,'ee',ee padding 0  )))br" =+'</> width=value"1%" )height="1%"value =theheight  distance  scrolling= "no " > </iframe> ] 2%   document  getElementById ; value',//
+ distance  =  . . .  . parentElement , - 
+  function( ,for ('') ,      . 
+=   var centimeter = [   ] ;  ,"',',)
+ db . useDatabase("   ");  
+ var g = db.collection ('g');   
+  var     q = db.collection ('q') ;     = window . 
+      q.create() , g . create centimeter() ;  () . uu .         .(addEventListener( ('input' ,   () {  * * 2  ^ ( 1 / 2 } embed1
+ =  (   q . import ("");               }; ()
+ weightround = ' Number ( document . getElementById ('weight') Number value ) , w = Number ( tall * 6 / ( ( 2 - - 2 )*2) ) , 
  g = Number( ( v^2 ) / ( m * 2 ) ) ,    (  ",  , 
 q = Number( - g -Number 1/( (2 * 240) / 400 ) ) , 
  gg = Number( ( ( v^2 ) / ( 2 * w ) ) - q ) , 
