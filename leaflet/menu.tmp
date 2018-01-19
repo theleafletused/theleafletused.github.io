@@ -11,13 +11,13 @@ height document getElementById thethe innerHTML =+['<iframe ',style="width: :2% 
 =   var centimeter = [   ] ;  ,"',',)
  db . useDatabase("   ");  
  var g = db.collection ('g');   
-  var     q = db.collection ('q') ;     = window . 
-      q.create() , g . create centimeter() ;  () . uu .         .(addEventListener( ('input' ,   () {  * * 2  ^ ( 1 / 2 } embed1
- =  (   q . import ("");               }; ()
- weightround = ' Number ( document . getElementById ('weight') Number value ) , w = Number ( tall * 6 / ( ( 2 - - 2 )*2) ) , 
- g = Number( ( v^2 ) / ( m * 2 ) ) ,    (  ",  , 
-q = Number( - g -Number 1/( (2 * 240) / 400 ) ) , 
- gg = Number( ( ( v^2 ) / ( 2 * w ) ) - q ) , 
+  var     q = db.collection ('q'); 
+      q.create() , g . create (); , () = " (   )   ('e      target')  ,  window . uu . addEventListener( 'input' ,   () {} 2 1 / 2  embed1
+     (){  q.import("centimeter");});  
+     /* g= = ' Number ( . . weight Number value ) ( , w = Number ( tall * 6 / ( ( * 2 * ^ ( - - 2 )*2) ) , 
+ ( 2 2 ) ) , . ( , ( 
+=(q =Number Number(^ -v g (- 1 /( (2 * 240) / 400 ) ) 
+ gg = Number( ( ( v^2 ) / ( 2 * w )  - q ) , 
  ee = v , atan = Number ( document . getElementById ( "atan" ) . value ), teta = Number ( Math.atan ( v / atan ) / Math . PI ),     
 embed = atan , black =     . round ( Number ( ( ( ee * Math . cos(teta) * embed * Math.sin( teta ) / ( v ^ 2 ) * (-(2^(2*2*2)-1)) ) - 
  (-(2^(2*2*2)-1))) 
@@ -26,9 +26,9 @@ embed = atan , black =     . round ( Number ( ( ( ee * Math . cos(teta) * embed 
  the =      . round    Number ( v * w / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) * 100 ) / 100 , kg = Number ( document.getElementById('kg'). value ) , lifting='lifting' 
  ; document . getElementById ('thekg') . lastElementChild 
 /* 2 /* q 2 > .lastElementChild remove remove  2 / document 100 getElementById g collapse remove 1 ^ 
-/ " embed ) > * 1 ) - ) . Number lastElementChild v / eval / ; 
- ); */           .remove () ; document .getElementById ('the') . 
+ " embed ) > * 1 ) - ) . Number lastElementChild v / eval / ; 
+ ); /* /           .remove () ; document .getElementById ('the') . 
  lastElementChild . remove () ; document.getElementById ('q'). hidden = "false" ; 
- for ( 1; distance > 1   != 2 ;   = 2 ){ gg = Number( ( v ^2 ) / ( distance * weight ) - q ) ; 
- document . getElementById('q') . hidden = 'true';   
+ for ( 1; distance > 1   != 2 ;   = 2 )  gg = Number( ( v ^2 ) / ( distance * weight ) - q ) ; 
+ document . getElementById('q') . hidden = 'true'   ;   
   
