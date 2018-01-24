@@ -1,25 +1,25 @@
-/  " - " "-"     -   
+/*  " - " "-"     -   
 <!DOCTYPE html> 
-<html>
+<html> 
 <head>   arangodb  thewidth
- < var theheight 240 ; var ee  for  ee  0 arangojs ; ee < theheight ; ee++){ que   thewidth
-  /   var Database = require("arangojs"). Database ; var db = require("arangojs")() ; db .createDatabase   (''); for ( var  = 0 ; que <  ee; que = +1){ Number   embed thewidth Number thethe div div innerHTML  
+ < var theheight 240 ; var ee  for  ee  0 arangojs ; ee < theheight ; ee++){ que   thewidth  ()
+  */ =  ) ))   = ('') ;var Database = require("arangojs"). Database ; var db = require("arangojs")() ; db .createDatabase   ('');    /* ) for ( var   0  que <  ee; que = +1){ Number   embed thewidth Number thethe div div innerHTML   /
 height document getElementById thethe innerHTML =+['<iframe ',style="width: :2% ; overflow:hidden border="0" id="embed" 
- join que,'ee',ee padding 0  )))br" =+'</> width=value"1%" )height="1%"value =theheight  distance  scrolling= "no " > </iframe> ] 2%   document  getElementById ; value',//
- distance  =  . . .  . parentElement , - 
-  function( ,for ('') ,      . 
-=   var centimeter = [   ] ;  ,"',',)
+ join que,'ee',ee padding 0  br" =+'</> width=value"1%" )height="1%"value =theheight  distance  scrolling= "no " > </iframe> ] 2%   document  getElementById- ; value',   ", u  
+ distance    , . .  . , , ,    */ window . e .  target . parentElement .   ('input',
+=  function(  for  ,  ){   
+   var centimeter = [     ];   
  db . useDatabase("   ");  
  var g = db.collection ('g');   
-  var     q = db.collection ('q'); 
-      q.create() , g . create (); , () = " (   )   ('e      target')  ,  window . uu . addEventListener( 'input' ,   () {} 2 1 / 2  embed1
-     (){  q.import("centimeter");});  
-     /* g= = ' Number ( . . weight Number value ) ( , w = Number ( tall * 6 / ( ( * 2 * ^ ( - - 2 )*2) ) , 
- ( 2 2 ) ) , . ( , ( 
-=(q =Number Number(^ -v g (- 1 /( (2 * 240) / 400 ) ) 
- gg = Number( ( ( v^2 ) / ( 2 * w )  - q ) , 
+  var q = db.collection ('q'); 
+      q.create() , g . create ();    } ()   ','  ('  ')        addEventListener      2 1 2 
+     (){  q.import("centimeter");  }); 
+     /* g= = ' Number (   weight Number value ) ( , w = Number ( tall  6 / ( ( * 2 * ^ ( - - 2 2) / ) (), embed1
+ ( 2 2 ) ) , . ( , ( .()=
+=(q =Number Number(^ -v g (- 1 /( (2  240) / 400 ) ) 
+ gg = Number( ( ( v^2 ) / ( 2 * w ) , - q ). , "
  ee = v , atan = Number ( document . getElementById ( "atan" ) . value ), teta = Number ( Math.atan ( v / atan ) / Math . PI ),     
-embed = atan , black =     . round ( Number ( ( ( ee * Math . cos(teta) * embed * Math.sin( teta ) / ( v ^ 2 ) * (-(2^(2*2*2)-1)) ) - 
+embed = atan , black =     . round ( Number ( ( ( ee  Math . cos(teta) * embed * Math.sin( teta    v ^ 2 ) * (-(2^(2*2*2)-1)) ) - 
  (-(2^(2*2*2)-1))) 
                   )), 
  thekg =     . round ( Number ( gg * weight / g ) ) , 
